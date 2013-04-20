@@ -9,8 +9,8 @@ Il s'agit d'une architecture clients/serveur. Un programme de mise à jour est i
 Voici les sources, disponibles sous licence GNU/GPL.
 
 #Requis :
-Qt>=4.5
+Qt>=4.6.2
 
 Normalement, ça compile correctement sous Windows, Linux et Mac.
 
-Le fichier documentation.pdf détaille les protocoles que j'ai imaginés pour COW.
+Je vous recommande chaudement de lire le fichier documentation.pdf qui détaille le fonctionnement général de COW et les protocoles que j'ai imaginés.
