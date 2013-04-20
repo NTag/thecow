@@ -11,6 +11,6 @@ Voici les sources, disponibles sous licence GNU/GPL.
 #Requis :
 Qt>=4.6.2
 
-Normalement, ça compile correctement sous Windows, Linux et Mac.
+Normalement, ça compile correctement sous Windows, Linux et Mac. Lisez le fichier README pour savoir comment compiler.
 
 Je vous recommande chaudement de lire le fichier documentation.pdf qui détaille le fonctionnement général de COW et les protocoles que j'ai imaginés.
