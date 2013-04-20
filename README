@@ -1,0 +1,59 @@
+ Copyright (C) 2010 Bruneau Basile
+ 
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ 
+COW - Chat Over the World
+
+1. Introduction
+
+Merci d'avoir téléchargé COW sous licence GNU/GPL.
+
+2. Prérequis
+
+COW nécessite Qt >= 4.5 sous licence GNU/GPL. La libraire Qt doit être téléchargée depuis le site de Trolltech :
+Windows : http://qt.nokia.com/downloads/sdk-windows-cpp
+GNU/Linux : http://qt.nokia.com/downloads/sdk-linux-x11-32bit-cpp
+MacOSX : http://qt.nokia.com/downloads/sdk-mac-os-cpp
+
+Note : si vous souhaitez compiler les programmes serveurs tels quels, vous devez compiler Qt avec le module SQL.
+Téléchargez les sources de Qt : http://qt.nokia.com/downloads/linux-x11-cpp
+Puis compilez-les avec l'option SQL (./configure -qt-sql-mysql).
+Si vous souhaitez compilez le client, utilisez les liens ci-dessus.
+
+Une fois Qt téléchargé, installez le.
+
+3. Configuration
+
+Pour les programmes clients vous devez indiquez l'OS que vous utilisez ("windows", "mac" ou "linux" / WINDOWS, MAC ou LINUX) dans les fichiers :
+cow-client/Fenetre.h:44-45
+cow-client/preFen.h:28-29
+cow-maj/fenetre.h:25-27
+Pour les programmes serveurs vous devez indiquer les identifiants de connexion à SQL. (pour le moment il n'est pas recommandé de compiler les serveurs, le code n'a pas été adapté)
+
+4. Compilation
+
+Allez dans le dossier du programme que vous souhaitez compiler (cow-client/ par exemple) puis faîtes :
+qmake
+make
+
+Et voilà, c'est finit :) !
+
+
+Bon chat' ;) .
+
+
+5. Licence
+
+COW est distribué sous licence GNU/GPL version 3. Celle-ci se trouve dans le fichier LICENCE.

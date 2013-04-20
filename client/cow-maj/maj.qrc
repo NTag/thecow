@@ -1,0 +1,10 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+	 <file>translations/cow-maj_fr.qm</file>
+	 <file>translations/qt_de.qm</file>
+	 <file>translations/qt_es.qm</file>
+	 <file>translations/qt_fr.qm</file>
+	 <file>translations/qt_iw.qm</file>
+	 <file>translations/qt_ja_JP.qm</file>
+ </qresource>
+ </RCC>

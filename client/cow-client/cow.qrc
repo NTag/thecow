@@ -1,0 +1,27 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>smileys/blink.png</file>
+	 <file>smileys/clin.png</file>
+	 <file>smileys/heureux.png</file>
+	 <file>smileys/hihi.png</file>
+	 <file>smileys/huh.png</file>
+	 <file>smileys/langue.png</file>
+	 <file>smileys/mechant.png</file>
+	 <file>smileys/rire.png</file>
+	 <file>smileys/siffle.png</file>
+	 <file>smileys/smile.png</file>
+	 <file>smileys/triste.png</file>
+	 <file>smileys/unsure.png</file>
+	 <file>cow-v0.8-transparent.png</file>
+	 <file>px.png</file>
+	 <file>fond2.png</file>
+	 <file>translations/cow-client_fr.qm</file>
+	 <file>translations/qt_de.qm</file>
+	 <file>translations/qt_es.qm</file>
+	 <file>translations/qt_fr.qm</file>
+	 <file>translations/qt_iw.qm</file>
+	 <file>translations/qt_ja_JP.qm</file>
+	 <file>translations/en/don.png</file>
+	 <file>translations/fr/don.png</file>
+ </qresource>
+ </RCC>
